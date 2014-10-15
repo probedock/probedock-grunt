@@ -1,33 +1,47 @@
 # rox-client-grunt
 
-> Grunt client with Jasmine listener for ROX Center.
+> Utilities for ROX Center clients using Grunt.
+
+[![NPM version](https://badge.fury.io/js/rox-client-grunt.svg)](http://badge.fury.io/js/rox-client-grunt)
+
+*This module was originally a standalone ROX Center client.
+This is no longer the case.
+The standalone client for grunt-contrib-jasmine is now [rox-client-grunt-contrib-jasmine](https://github.com/lotaris/rox-client-grunt-contrib-jasmine).*
 
 
 
-## Getting Started
+## Usage
 
-This plugin requires Grunt `~0.4.2`
+Add it to your development dependencies:
 
-If you haven't used [Grunt](http://gruntjs.com/) before, be sure to check out the [Getting Started](http://gruntjs.com/getting-started) guide, as it explains how to create a [Gruntfile](http://gruntjs.com/sample-gruntfile) as well as install and use Grunt plugins. Once you're familiar with that process, you may install this plugin with this command:
-
-```shell
-npm install rox-client-grunt --save-dev
+```bash
+npm install --save-dev rox-client-grunt
 ```
 
-Once the plugin has been installed, it may be enabled inside your Gruntfile with this line of JavaScript:
-
+Once the plugin has been installed, it may be enabled inside your Gruntfile with this line:
+ 
 ```js
 grunt.loadNpmTasks('rox-client-grunt');
 ```
+
+### Requirements
+
+* Node.js 0.10
 
 
 
 ## Contributing
 
-In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com/).
+* [Fork](https://help.github.com/articles/fork-a-repo)
+* Create a topic branch - `git checkout -b feature`
+* Push to your branch - `git push origin feature`
+* Create a [pull request](http://help.github.com/pull-requests/) from your branch
+
+Please add a changelog entry with your name for new features and bug fixes.
 
 
 
-## Release History
+## License
 
-_(Nothing yet)_
+**rox-client-grunt** is licensed under the [MIT License](http://opensource.org/licenses/MIT).
+See [LICENSE.txt](LICENSE.txt) for the full text.
