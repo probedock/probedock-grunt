@@ -1,7 +1,7 @@
 {
   "name": "probedock-grunt",
   "description": "Grunt.js library to develop new probes for Probe Dock.",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "homepage": "https://github.com/probedock/probedock-grunt",
   "author": {
     "name": "Simon Oulevay (Alpha Hydrae)",
