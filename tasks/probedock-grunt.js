@@ -16,7 +16,7 @@ module.exports = function(grunt) {
     }
   }
 
-  grunt.registerMultiTask('probedockGruntSetup', 'Set up the Probe Dock probe', function() {
+  grunt.registerMultiTask('probedockSetup', 'Set up the Probe Dock probe', function() {
 
     var options = this.options({
       force: true
@@ -39,12 +39,12 @@ module.exports = function(grunt) {
     grunt.log.ok();
   });
 
-  grunt.registerMultiTask('probedockGruntPublish', 'Publish test results to Probe Dock', function() {
+  grunt.registerMultiTask('probedockPublish', 'Publish test results to Probe Dock', function() {
 
     setForce(false);
 
     if (!process.env.PROBEDOCK_GRUNT_TMP) {
-      return grunt.log.error('The PROBEDOCK_GRUNT_TMP environment variable must be set. Maybe you forgot to run the probedockGruntSetup task.');
+      return grunt.log.error('The PROBEDOCK_GRUNT_TMP environment variable must be set. Maybe you forgot to run the probedockSetup task.');
     }
 
     // TODO: allow to customize target
