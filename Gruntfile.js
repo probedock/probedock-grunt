@@ -3,9 +3,11 @@ module.exports = function(grunt) {
   // Project configuration.
   grunt.initConfig({
     bump: {
-      commit: false,
-      createTag: false,
-      push: false
+      options: {
+        commit: false,
+        createTag: false,
+        push: false
+      }
     },
 
     jshint: {
