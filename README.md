@@ -1,35 +1,42 @@
-# rox-client-grunt
+# Probe Dock Grunt.js Library
 
-> Utilities for ROX Center clients using Grunt.
+**[Grunt.js](http://gruntjs.com) library to develop new probes for [Probe Dock](https://github.com/probedock/probedock).**
 
-[![NPM version](https://badge.fury.io/js/rox-client-grunt.svg)](http://badge.fury.io/js/rox-client-grunt)
+[![NPM version](https://badge.fury.io/js/probedock-grunt.svg)](http://badge.fury.io/js/probedock-grunt)
+[![Dependency Status](https://gemnasium.com/probedock/probedock-grunt.svg)](https://gemnasium.com/probedock/probedock-grunt)
+[![License](https://img.shields.io/github/license/probedock/probedock-grunt.svg)](LICENSE.txt)
 
-*This module was originally a standalone ROX Center client.
-This is no longer the case.
-The standalone client for grunt-contrib-jasmine is now [rox-client-grunt-contrib-jasmine](https://github.com/lotaris/rox-client-grunt-contrib-jasmine).*
+* [Requirements](#requirements)
+* [Installation](#installation)
+* [Contributing](#contributing)
 
 
 
-## Usage
-
-Add it to your development dependencies:
-
-```bash
-npm install --save-dev rox-client-grunt
-```
-
-Once the plugin has been installed, it may be enabled inside your Gruntfile with this line:
- 
-```js
-grunt.loadNpmTasks('rox-client-grunt');
-```
-
+<a name="requirements"></a>
 ### Requirements
 
 * Node.js 0.10
 
 
 
+<a name="installation"></a>
+## Installation
+
+Add it to your development dependencies:
+
+```bash
+npm install --save-dev probedock-grunt
+```
+
+Once the plugin has been installed, it may be enabled inside your Gruntfile with this line:
+ 
+```js
+grunt.loadNpmTasks('probedock-grunt');
+```
+
+
+
+<a name="contributing"></a>
 ## Contributing
 
 * [Fork](https://help.github.com/articles/fork-a-repo)
@@ -43,5 +50,4 @@ Please add a changelog entry with your name for new features and bug fixes.
 
 ## License
 
-**rox-client-grunt** is licensed under the [MIT License](http://opensource.org/licenses/MIT).
-See [LICENSE.txt](LICENSE.txt) for the full text.
+**probedock-grunt** is licensed under the [MIT License](http://opensource.org/licenses/MIT).

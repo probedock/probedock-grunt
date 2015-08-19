@@ -1,12 +1,3 @@
-/*
- * rox-client-grunt
- * https://github.com/lotaris/rox-client-grunt
- *
- * Copyright (c) 2014 Lotaris SA
- * Licensed under the MIT license.
- */
-'use strict';
-
 module.exports = function(grunt) {
 
   // Project configuration.
@@ -15,10 +6,7 @@ module.exports = function(grunt) {
       all: [
         'Gruntfile.js',
         'lib/*.js'
-      ],
-      options: {
-        jshintrc: '.jshintrc',
-      },
+      ]
     }
   });
 
