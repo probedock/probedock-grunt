@@ -15,7 +15,8 @@
 <a name="requirements"></a>
 ### Requirements
 
-* Node.js 0.10
+* Node.js 0.10+
+* Grunt.js 0.4+
 
 
 
